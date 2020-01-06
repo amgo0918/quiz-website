@@ -1,0 +1,34 @@
+button[type="submit"]
+{
+    
+   
+    background: #001;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+	 border: none;
+    outline: none;
+    background: #56880c;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#bdy
+{
+	background: black;
+	font-family:aerial;
+	color:#56880c;
+	font-size:20px;
+}
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #56880c;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}

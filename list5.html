@@ -1,0 +1,138 @@
+<!DOCTYPE>
+<html>
+<head><link rel="stylesheet" href="ss.css"></link></head>
+<body id="bdy"> 
+<table>
+<tr width="">
+<td width="75%" ></td><td width="5%" ></td><td width="5%" ></td>
+<td width="200px"  id="t1"><a href="file:///C:/Users/om/Desktop/CST%20PROJECT/project.html"><button type="submit" id="b1"> LOGOUT</button></a>&nbsp;</td>
+</tr>
+</table>
+Q1.What should be the first tag in any HTML document?<br>
+<input type="radio" name="q1">head tag<br>
+<input type="radio" name="q1">title tag<br>
+<input type="radio" name="q1" id="i1">html tag<br>
+<input type="radio" name="q1">document tag<br>
+<br>
+Q2. How can you make a bulleted list with numbers?<br>
+<input type="radio" name="q2">dl tag<br>
+<input type="radio" name="q2" id="i2">ol tag<br>
+<input type="radio" name="q2">list tag<br>
+<input type="radio" name="q2">ul tag<br>
+<br>
+Q3.What tag is used to display a picture in a HTML page?<br>
+<input type="radio" name="q3">Picture<br>
+<input type="radio" name="q3">Image<br>
+<input type="radio" name="q3" id="i3">img<br>
+<input type="radio" name="q3">Src<br>
+<br>
+Q4.HTML web pages can be read and rendered by _________.<br>
+<input type="radio" name="q4">Compiler<br>
+<input type="radio" name="q4">Server<br>
+<input type="radio" name="q4" id="i4">Web Browser<br>
+<input type="radio" name="q4">Interpreter<br>
+<br>
+Q5.Which HTML tag produces the biggest heading?<br>
+<input type="radio" name="q5">h7<br>
+<input type="radio" name="q5">h9<br>
+<input type="radio" name="q5">h4<br>
+<input type="radio" name="q5"id="i5">h1<br>
+<br>
+Q6.Tags and test that are not directly displayed on the page are written in _____ section.<br>
+<input type="radio" name="q6" id="i6">head<br>
+<input type="radio" name="q6">title<br>
+<input type="radio" name="q6">body<br>
+<input type="radio" name="q6">html<br>
+<br>
+Q7.tag makes the enclosed text bold. What is other tag to make text bold?<br>
+<input type="radio" name="q7" id="i7">strong<br>
+<input type="radio" name="q7">dar<br>
+<input type="radio" name="q7">black<br>
+<input type="radio" name="q7">emp<br>
+<br>
+Q8.Which HTML tag would be used to display power in expression (A+B)2 ?<br>
+<input type="radio" name="q8" id="i8">SUP<br>
+<input type="radio" name="q8">SUB<br>
+<input type="radio" name="q8">B<br>
+<input type="radio" name="q8">P<br>
+<br>
+Q9.TD … /TD tag is used for ________<br>
+<input type="radio" name="q9">Table heading<br>
+<input type="radio" name="q9" id="i9">Table Records<br>
+<input type="radio" name="q9">Table row<br>
+<input type="radio" name="q9">none of the above<br>
+<br>
+Q10.Text within EM … /EM tag is displayed as ________<br>
+<input type="radio" name="q10">bold<br>
+<input type="radio" name="q10" id="i10">italic<br>
+<input type="radio" name="q10">list<br>
+<input type="radio" name="q10">indented<br>
+<br>
+<pre>                                             </pre><input id="submit" type ="submit" value="submit" name="submit"></form>
+</body>
+<script>
+var marks=0;
+var c="false";
+var i1=document.getElementById("i1");
+var i2=document.getElementById("i2");
+var i3=document.getElementById("i3");
+var i4=document.getElementById("i4");
+var i5=document.getElementById("i5");
+var i6=document.getElementById("i6");
+var i7=document.getElementById("i7");
+var i8=document.getElementById("i8");
+var i9=document.getElementById("i9");
+var i10=document.getElementById("i10");
+i1.onclick=function()
+{
+	marks=marks+1;
+}
+i2.onclick=function()
+{
+	marks=marks+1;
+}
+i3.onclick=function()
+{
+	marks=marks+1;
+}
+i4.onclick=function()
+{
+	marks=marks+1;
+}
+i5.onclick=function()
+{
+	marks=marks+1;
+}
+i6.onclick=function()
+{
+	marks=marks+1;
+}
+i7.onclick=function()
+{
+	marks=marks+1;
+}
+i8.onclick=function()
+{
+	marks=marks+1;
+}
+i9.onclick=function()
+{
+	marks=marks+1;
+}
+i10.onclick=function()
+{
+	marks=marks+1;
+}
+var submit=document.getElementById("submit");
+submit.innerHTML="Submit";
+submit.onclick=function()
+{
+	c=confirm("Press OK to submit your test");
+	if(c==true)
+	{
+		alert("Total marks:"+marks);
+		location.href="submit.html";
+	}
+}
+</script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head><link rel="stylesheet" href="procss.css"></link></head>
+<body id="bdy"> 
+<center><font size="20px">
+THANK YOU FOR ATTEMPTING THE TEST!
+<br><br><br><br>
+
+<center>
+<div id="show"></div>
+</center>
+</body>
+<script>
+var i=0
+src=["a2.jpg","click.png","o7.png","o5.png","c.png","p6.jpg","quiz.png","c++.png","o3.png","o6.png","java.png","o1.png","html.png","o4.png","quiz2.jpeg","python.png"];
+var show=document.getElementById("show");
+var img=document.createElement("img");
+img.setAttribute("src",src[i]);
+img.setAttribute("id","pic");
+img.setAttribute("height","30%");
+img.setAttribute("width","30%");
+show.appendChild(img);
+  setInterval(function(){ fun1(); }, 1700);
+function fun1()
+{
+//alert("h");
+if(i==src.length-1)
+{
+	i=0;
+}
+	document.getElementById("pic").removeAttribute("src");
+	
+	img.setAttribute("src",src[i]);
+	i++;
+}
+</script>
+</html>

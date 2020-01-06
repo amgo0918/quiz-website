@@ -1,0 +1,139 @@
+<!DOCTYPE>
+<html>
+<head><link rel="stylesheet" href="ss.css"></link></head>
+<body id="bdy">
+<table>
+<tr width="">
+<td width="75%" ></td><td width="5%" ></td><td width="5%" ></td>
+<td width="200px"  id="t1"><a href="file:///C:/Users/om/Desktop/CST%20PROJECT/project.html"><button type="submit" id="b1"> LOGOUT</button></a>&nbsp;</td>
+</tr>
+</table> 
+Q1.Identify the invalid constant used in fseek() function as ‘whence’ reference.<br>
+<input type="radio" name="q1">SEEK_SET<br>
+<input type="radio" name="q1">SEEK_CUR<br>
+<input type="radio" name="q1" id="i1">SEEK_BEG<br>
+<input type="radio" name="q1">SEEK_END<br>
+<br>
+Q2.Choose the invalid predefined macro as per ANSI C.<br>
+<input type="radio" name="q2">__FILE__<br>
+<input type="radio" name="q2">__DATE__<br>
+<input type="radio" name="q2">__TIME__<br>
+<input type="radio" name="q2" id="i2">__C++__<br>
+<br>
+Q3.What function can be used to free the memory allocated by calloc()?
+<br>
+<input type="radio" name="q3">dealloc();<br>
+<input type="radio" name="q3">strcat();<br>
+<input type="radio" name="q3" id="i3">free();<br>
+<input type="radio" name="q3">memcpy();<br>
+<br>
+Q4. Choose the correct unary operators in C – a) !, b) ~, c) ^&, d) ++<br>
+<input type="radio" name="q4" id="i4">a, b, d<br>
+<input type="radio" name="q4">a, b, c<br>
+<input type="radio" name="q4">b, c, d<br>
+<input type="radio" name="q4">c, d, a<br>
+<br>
+Q5.We can insert pre written code in a C program by using<br>
+<input type="radio" name="q5">#read<br>
+<input type="radio" name="q5">#get<br>
+<input type="radio" name="q5" id="i5">#include<br>
+<input type="radio" name="q5">#put<br>
+<br>
+Q6.Break statement is used for<br>
+<input type="radio" name="q6">Quit a program<br>
+<input type="radio" name="q6" id="i6">Quit the current iteration<br>
+<input type="radio" name="q6">Both of above<br>
+<input type="radio" name="q6">None of above<br>
+<br>
+Q7.Due to variable scope in c<br>
+<input type="radio" name="q7" id="i7">Variables created in a function cannot be used another function<br>
+<input type="radio" name="q7">Variables created in a function can be used in another function<br>
+<input type="radio" name="q7">Variables created in a function can only be used in the main function<br>
+<input type="radio" name="q7">None of above<br>
+<br>
+Q8.Which of the following is allowed in a C Arithmetic instruction<br>
+<input type="radio" name="q8">[]<br>
+<input type="radio" name="q8">{}<br>
+<input type="radio" name="q8" id="i8">()<br>
+<input type="radio" name="q8">None of above<br>
+<br>
+Q9.A C variable cannot start with<br>
+<input type="radio" name="q9">An alphabet<br>
+<input type="radio" name="q9">A number<br>
+<input type="radio" name="q9">A special symbol other than underscore<br>
+<input type="radio" name="q9" id="i9">both (b) and (c)<br>
+<br>
+Q10.C programs are converted into machine language with the help of<br>
+<input type="radio" name="q10">An Editor<br>
+<input type="radio" name="q10">A compiler<br>
+<input type="radio" name="q10">An operating system<br>
+<input type="radio" name="q10" id="i10">None of above<br>
+<br>
+<pre>                                             </pre><input type ="submit" value="submit" name="submit" id="submit">
+</body>
+<script>
+var marks=0;
+var c="false";
+var i1=document.getElementById("i1");
+var i2=document.getElementById("i2");
+var i3=document.getElementById("i3");
+var i4=document.getElementById("i4");
+var i5=document.getElementById("i5");
+var i6=document.getElementById("i6");
+var i7=document.getElementById("i7");
+var i8=document.getElementById("i8");
+var i9=document.getElementById("i9");
+var i10=document.getElementById("i10");
+i1.onclick=function()
+{
+	marks=marks+1;
+}
+i2.onclick=function()
+{
+	marks=marks+1;
+}
+i3.onclick=function()
+{
+	marks=marks+1;
+}
+i4.onclick=function()
+{
+	marks=marks+1;
+}
+i5.onclick=function()
+{
+	marks=marks+1;
+}
+i6.onclick=function()
+{
+	marks=marks+1;
+}
+i7.onclick=function()
+{
+	marks=marks+1;
+}
+i8.onclick=function()
+{
+	marks=marks+1;
+}
+i9.onclick=function()
+{
+	marks=marks+1;
+}
+i10.onclick=function()
+{
+	marks=marks+1;
+}
+var submit=document.getElementById("submit");
+submit.innerHTML="Submit";
+submit.onclick=function()
+{
+	c=confirm("Press OK to submit your test");
+	if(c==true)
+	{
+		alert("Total marks:"+marks);
+		location.href="submit.html";
+	}
+}
+</script>
+</html>

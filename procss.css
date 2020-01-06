@@ -1,0 +1,48 @@
+#p1
+{
+	font-family:jokerman;
+}
+#bdy
+{
+	background-color:black;
+	font-family:jokerman;
+	color:#56880c;
+}
+
+#f1
+{
+	background-color:black;
+}
+#p2
+{
+	font-size:80px;
+	color:#56880c;
+}
+#p3
+{
+	font-size:40px;
+	vertical-align:top;
+	color:white;
+}
+ button[type="submit"]
+{
+    
+   
+    background: #001;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+	 border: none;
+    outline: none;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+    margin-bottom: 20px;
+}
+#t1
+{
+	text-align:right;
+}

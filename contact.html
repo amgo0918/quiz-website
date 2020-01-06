@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="ss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body BGCOLOR="BLACK">
+  <table>
+<tr width="">
+<td width="75%" ></td><td width="5%" ></td><td width="5%" ></td>
+<td width="200px"  id="t1"><a href="C:\Users\HP\Desktop\CST PROJECT\index.html"><button type="submit" id="b1"> HOME</button></a>&nbsp;</td>
+<td width="200px" ><a href="C:\Users\HP\Desktop\CST PROJECT\index2.html"><button type="submit" id="b1">LOGIN</button></a></td>
+</tr>
+</table>
+    <div class="container" style="background:#56880c">
+      
+      
+      
+      
+ <marquee><span class="glyphicon glyphicon-envelope"></span>&nbsp; <font color="WHITE">a2quiz@gmail.com &nbsp;
+
+<span class="glyphicon glyphicon-earphone"> 9876543210</span> </marquee></FONT>
+</div>
+
+
+	   </div>
+      </p> 
+    </div>
+	<br><br><br><br><br><br>
+<center>
+<div id="show"></div>
+</center>
+</body>
+    <script>
+var i=0
+src=["a2.jpg","click.png","o7.png","o5.png","c.png","p6.jpg","quiz.png","c++.png","o3.png","o6.png","java.png","o1.png","html.png","o4.png","quiz2.jpeg","python.png"];
+var show=document.getElementById("show");
+var img=document.createElement("img");
+img.setAttribute("src",src[i]);
+img.setAttribute("id","pic");
+img.setAttribute("height","20%");
+img.setAttribute("width","20%");
+show.appendChild(img);
+  setInterval(function(){ fun1(); }, 1700);
+function fun1()
+{
+//alert("h");
+if(i==src.length-1)
+{
+	i=0;
+}
+	document.getElementById("pic").removeAttribute("src");
+	
+	img.setAttribute("src",src[i]);
+	i++;
+}
+</script>
+</html>

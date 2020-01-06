@@ -1,0 +1,4 @@
+#bdy
+{          background:linear-gradient(to bottom,#00ffff -2%,#ff2550 49%);
+	   
+}

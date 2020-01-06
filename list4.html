@@ -1,0 +1,138 @@
+<!DOCTYPE>
+<html>
+<head><link rel="stylesheet" href="ss.css"></link></head>
+<body id="bdy"> 
+<table>
+<tr width="">
+<td width="75%" ></td><td width="5%" ></td><td width="5%" ></td>
+<td width="200px"  id="t1"><a href="file:///C:/Users/om/Desktop/CST%20PROJECT/project.html"><button type="submit" id="b1"> LOGOUT</button></a>&nbsp;</td>
+</tr>
+</table>
+Q1.What is called when a function is defined inside a class?<br>
+<input type="radio" name="q1">Module<br>
+<input type="radio" name="q1">Class<br>
+<input type="radio" name="q1">Another Function<br>
+<input type="radio" name="q1" id="i1">Method<br>
+<br>
+Q2.Which of the following is the use of id() function in python?<br>
+<input type="radio" name="q2" id="i2">Id returns the identity of the object<br>
+<input type="radio" name="q2">Every object doesn’t have a unique id<br>
+<input type="radio" name="q2">All of the mentioned<br>
+<input type="radio" name="q2">None of the mentioned<br>
+<br>
+Q3.Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?<br>
+<input type="radio" name="q3">[3, 4, 5, 20, 5, 25, 1, 3]<br>
+<input type="radio" name="q3">[1, 3, 3, 4, 5, 5, 20, 25]<br>
+<input type="radio" name="q3" id="i3">[3, 5, 20, 5, 25, 1, 3]<br>
+<input type="radio" name="q3">[1, 3, 4, 5, 20, 5, 25]<br>
+<br>
+Q4.time.time() returns ________<br>
+<input type="radio" name="q4">the current time<br>
+<input type="radio" name="q4">the current time in milliseconds<br>
+<input type="radio" name="q4">the current time in milliseconds since midnight<br>
+<input type="radio" name="q4" id="i4">the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)<br>
+<br>
+Q5.Given a function that does not return any value, what value is shown when executed at the shell?<br>
+<input type="radio" name="q5">int<br>
+<input type="radio" name="q5">bool<br>
+<input type="radio" name="q5">void<br>
+<input type="radio" name="q5" id="i5">None<br>
+<br>
+Q6.Which module in Python supports regular expressions?<br>
+<input type="radio" name="q6" id="i6">re<br>
+<input type="radio" name="q6">regex<br>
+<input type="radio" name="q6">pyregex<br>
+<input type="radio" name="q6">None<br>
+<br>
+Q7.Which of the following is not a complex number?<br>
+<input type="radio" name="q7">k = 2 + 3j<br>
+<input type="radio" name="q7">k = complex(2, 3)<br>
+<input type="radio" name="q7" id="i7">k = 2 + 3l<br>
+<input type="radio" name="q7">k = 2 + 3J<br>
+<br>
+Q8.What does ~~~~~~5 evaluate to?<br>
+<input type="radio" name="q8" id="i8">+5<br>
+<input type="radio" name="q8">-11<br>
+<input type="radio" name="q8">+11<br>
+<input type="radio" name="q8">-5<br>
+<br>
+Q9.Given a string s = “Welcome”, which of the following code is incorrect?<br>
+<input type="radio" name="q9">print s[0]<br>
+<input type="radio" name="q9">print s.lower()<br>
+<input type="radio" name="q9" id="i9">s[1] = ‘r’<br>
+<input type="radio" name="q9">print s.strip()<br>
+<br>
+Q10._____ is a simple but incomplete version of a function.<br>
+<input type="radio" name="q10" id="i10">Stub<br>
+<input type="radio" name="q10">Function<br>
+<input type="radio" name="q10">A function developed using bottom-up approach<br>
+<input type="radio" name="q10">A function developed using top-down approach<br>
+<br>
+<pre>                                             </pre><input id="submit" type ="submit" value="submit" name="submit"></form>
+</body>
+<script>
+var marks=0;
+var c="false";
+var i1=document.getElementById("i1");
+var i2=document.getElementById("i2");
+var i3=document.getElementById("i3");
+var i4=document.getElementById("i4");
+var i5=document.getElementById("i5");
+var i6=document.getElementById("i6");
+var i7=document.getElementById("i7");
+var i8=document.getElementById("i8");
+var i9=document.getElementById("i9");
+var i10=document.getElementById("i10");
+i1.onclick=function()
+{
+	marks=marks+1;
+}
+i2.onclick=function()
+{
+	marks=marks+1;
+}
+i3.onclick=function()
+{
+	marks=marks+1;
+}
+i4.onclick=function()
+{
+	marks=marks+1;
+}
+i5.onclick=function()
+{
+	marks=marks+1;
+}
+i6.onclick=function()
+{
+	marks=marks+1;
+}
+i7.onclick=function()
+{
+	marks=marks+1;
+}
+i8.onclick=function()
+{
+	marks=marks+1;
+}
+i9.onclick=function()
+{
+	marks=marks+1;
+}
+i10.onclick=function()
+{
+	marks=marks+1;
+}
+var submit=document.getElementById("submit");
+submit.innerHTML="Submit";
+submit.onclick=function()
+{
+	c=confirm("Press OK to submit your test");
+	if(c==true)
+	{
+		alert("Total marks:"+marks);
+		location.href="submit.html";
+	}
+}
+</script>
+</html>

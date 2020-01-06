@@ -1,0 +1,425 @@
+c lang
+
+1.Identify the invalid constant used in fseek() function as ‘whence’ reference.
+
+A - SEEK_SET
+
+B - SEEK_CUR
+
+C - SEEK_BEG
+
+D - SEEK_END
+c
+
+2.Choose the invalid predefined macro as per ANSI C.
+
+A - __FILE__
+
+B - __DATE__
+
+C - __TIME__
+
+D - __C++__
+d
+
+3.What function can be used to free the memory allocated by calloc()?
+
+A - dealloc();
+
+B - strcat();
+
+C - free();
+
+D - memcpy();
+c
+
+4. Choose the correct unary operators in C – a) !, b) ~, c) ^&, d) ++
+
+A - a, b, d
+
+B - a, b, c
+
+C - b, c, d
+
+D - c, d, a
+a
+
+5. We can insert pre written code in a C program by using
+1.#read
+2.#get
+3.#include
+4.#put
+c
+
+6.  Break statement is used for
+1. Quit a program
+2.Quit the current iteration
+3.Both of above
+4.None of above
+b
+
+7. Due to variable scope in c
+1.Variables created in a function cannot be used another function
+2.Variables created in a function can be used in another function
+3.Variables created in a function can only be used in the main function
+4.None of above
+a
+
+8.  Which of the following is allowed in a C Arithmetic instruction
+A. []
+B. {}
+C. ()
+D. None of the above
+c
+
+9. A C variable cannot start with
+A. An alphabet
+B. A number
+C. A special symbol other than underscore
+D. both (b) and (c)
+d
+
+10. C programs are converted into machine language with the help of 
+A. An Editor
+B. A compiler
+C. An operating system
+D. None of the above
+b
+
+
+
+
+
+
+
+
+c++ lang
+
+1.Which of the following type of class allows only one object of it to be created?
+
+A.Virtual class
+B.Abstract class
+C.Singleton class
+D.Friend class
+c
+
+2. Which of the following statements is correct?
+
+A.Base class pointer cannot point to derived class.
+B.Derived class pointer cannot point to base class.
+C.Pointer to derived class cannot be created.
+D.Pointer to base class cannot be created
+b 
+
+3.Which of the following concepts means determining at runtime what method to invoke?
+
+A.Data hiding
+B.Dynamic Typing
+C.Dynamic binding
+D.Dynamic loading
+c
+
+4.Which of the following term is used for a function defined inside a class?
+
+A.Member Variable
+B.Member function
+C.Class function
+D.Classic function
+b
+
+5.Which of the following concept of oops allows compiler to insert arguments in a function call if it is not specified?
+
+A.Call by value
+B.Call by reference
+C.Default arguments
+D.Call by pointer
+c
+
+6.How many instances of an abstract class can be created?
+
+A.1
+B.5
+C.13
+D.0
+d
+
+7. Which of the following concepts of OOPS means exposing only necessary information to client?
+
+A.Encapsulation
+B.Abstraction
+C.Data hiding
+D.Data binding
+c
+
+8. Why reference is not same as a pointer?
+
+A.A reference can never be null.
+B.A reference once established cannot be changed.
+C.Reference doesn't need an explicit dereferencing mechanism.
+D.All of the above.
+d
+
+9.Which of the following is an abstract data type?
+
+A.int
+B.double
+C.string
+D.Class
+d
+
+10. 	
+Which of the following statement is correct?
+
+A.A constructor is called at the time of declaration of an object.
+B.A constructor is called at the time of use of an object.
+C.A constructor is called at the time of declaration of a class.
+D.A constructor is called at the time of use of a class.
+a
+
+
+
+
+java lang
+
+1. Which statement is true regarding an object?
+
+(a) An object is what classes instantiated are from
+(b) An object is an instance of a class
+(c) An object is a variable
+(d) An object is a reference to an attribute
+b
+
+2. In object-oriented programming, new classes can be defined by extending existing classes. This is an example of:
+
+(a) Encapsulation 
+(b) Interface
+(c) Composition 
+(d) Inheritance 
+d
+
+3.Object-oriented inheritance models the
+
+(a) “is a kind of” relationship
+(b) “has a” relationship
+(c) “want to be” relationship
+(d) inheritance does not describe any kind of relationship between classes
+a
+
+4.  The wrapping up of data and functions into a single unit is called
+
+(a) Encapsulation 
+(b) Abstraction
+(c) Data Hiding 
+(d) Polymorphism
+a
+
+5. Given a class named student, which of the following is a valid constructor declaration for the class?
+
+(a) Student (student s) { } 
+(b) Student student ( ) { }
+(c) Private final student ( ) { } 
+(d) Void student ( ) { }
+(e) Static void student(){ }.
+a
+
+6. What is garbage collection in the context of Java?
+
+(a) The operating system periodically deletes all of the java files available on the system.
+(b) Any package imported in a program and not used is automatically deleted.
+(c) When all references to an object are gone, the memory used by the object is automatically reclaimed.
+(d) The JVM checks the output of any Java program and deletes anything that doesn’t make sense.
+c
+
+7. In Java, declaring a class abstract is useful
+
+(a) To prevent developers from further extending the class
+(b) When it doesn’t make sense to have objects of that class
+(c) When default implementations of some methods are not desirable
+(d) To force developers to extend the class not to use its capabilities
+b
+
+8. 15) Which of these field declarations are legal within the body of an interface?
+
+(a) Private final static int answer = 42 
+(b) public static int answer=42
+(c) final static answer =42
+(d) int answer
+b
+
+9.  A package is a collection of
+
+(a) Classes 
+(b) Interfaces 
+(c) Editing tools
+(d) Classes and interfaces
+d
+
+10. Basic Java language functions are stored in which of the following java package?
+
+(a) java.lang 
+(b) java.io 
+(c) java.net 
+(d) java.util
+a
+
+
+
+python lang
+
+1. What is called when a function is defined inside a class?
+A.Module
+B.Class
+C.Another Function
+D.Method
+d
+
+2. Which of the following is the use of id() function in python?
+A.Id returns the identity of the object
+B.Every object doesn’t have a unique id
+C.All of the mentioned
+D.None of the mentioned
+a
+
+3. Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?
+A.[3, 4, 5, 20, 5, 25, 1, 3]
+B.[1, 3, 3, 4, 5, 5, 20, 25]
+C.[3, 5, 20, 5, 25, 1, 3]
+D.[1, 3, 4, 5, 20, 5, 25]
+c
+
+4. time.time() returns ________
+A.the current time
+B.the current time in milliseconds
+C.the current time in milliseconds since midnight
+D.the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)
+d
+
+5. Given a function that does not return any value, what value is shown when executed at the shell?
+A.int
+B.bool
+C.void
+D.None
+d
+
+6. Which module in Python supports regular expressions?
+A.re
+B.regex
+C.pyregex
+D.None of the above
+a
+
+7. Which of the following is not a complex number?
+A.k = 2 + 3j
+B.k = complex(2, 3)
+C.k = 2 + 3l
+D.k = 2 + 3J
+c
+
+8. What does ~~~~~~5 evaluate to?
+A.+5
+B.-11
+C.+11
+D.-5
+a
+
+9. Given a string s = “Welcome”, which of the following code is incorrect?
+A.print s[0]
+B.print s.lower()
+C.s[1] = ‘r’
+D.print s.strip()
+c
+
+10. _____ is a simple but incomplete version of a function.
+A.Stub
+B.Function
+C.A function developed using bottom-up approach
+D.A function developed using top-down approach
+a
+
+
+
+html lang
+
+1. What should be the first tag in any HTML document?
+A. <head>
+B. <title>
+C. <html>
+D. <document>
+c
+
+2. How can you make a bulleted list with numbers?
+A. <dl>
+B. <ol>
+C. <list>
+D. <ul>
+b
+
+3.What tag is used to display a picture in a HTML page?
+A. picture
+B. image
+C. img
+D. src
+c
+
+4. HTML web pages can be read and rendered by _________.
+A. Compiler
+B. Server
+C. Web Browser
+D. Interpreter
+c
+
+5.Which HTML tag produces the biggest heading?
+A. <h7>
+B. <h9>
+C. <h4>
+D. <h1>
+d
+
+6.Tags and test that are not directly displayed on the page are written in _____ section.
+A. <head>
+B. <title>
+C. <body>
+D. <html>
+a
+
+7.<b> tag makes the enclosed text bold. What is other tag to make text bold?
+a. <strong>
+b. <dar>
+c. <black>
+d. <emp>
+a
+
+8.  Which HTML tag would be used to display power in expression (A+B)2 ?
+a. <SUP>
+b. <SUB>
+c. <B>
+d. <P>
+a
+
+9.<TD> … </TD> tag is used for ________
+a. Table heading
+b. Table Records
+c. Table row
+d. none of the above
+b
+
+10.Text within <EM> … </EM> tag is displayed as ________
+a. bold
+b. italic
+c. list
+d. indented
+b
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <a href="file:///C:/Users/om/Desktop/CST%20PROJECT/project.html"><button type="submit" id="b1">HOME</button></a>&nbsp;

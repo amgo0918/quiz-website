@@ -1,0 +1,31 @@
+<html>
+<head><link rel="stylesheet" href="procss.css"></link></head>
+<body id="bdy"> 
+<form action="pro.html">
+<table>
+<tr><td>First Name:</td><td><input type="text" required STYLE='color=#FFFF00' ><br><br></td></tr>
+<tr><td>Last Name:</td><td><input type="text" required><br><br></td></tr>
+<tr><td>Email:</td><td><input type="email" required ><br><br></td></tr>
+<tr><td>Username:</td><td><input type="text" required><br><br></td></tr>
+<tr><td>Password:</td><td><input type="password" required maxlength="10" minlength="5" id="password"><br><br></td></tr>
+<tr><td>Confirm Password:</td><td><input type="password" required id="confirm_password"><br><br></td></tr>
+</table>
+<button type="sumbit">SIGN UP</button>
+<script>
+var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>
+</script>
+</body>
+</html>
